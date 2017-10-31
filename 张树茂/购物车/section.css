@@ -1,0 +1,10 @@
+*{margin: 0;padding: 0;}
+ul li{list-style-type: none;float: left;}
+a{text-decoration:none;}
+i{font-style:normal;}
+body,html{width: 100%;height: 100%;}
+section{
+  height: 500px;
+  width: 100%;
+  background: skyblue;
+}
