@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link rel="stylesheet" href="header.css">
-  <link rel="stylesheet" href="section.css">
+  <link rel="stylesheet" href="section-gouwuche.css">
   <link rel="stylesheet" href="footer.css">
   <link rel="stylesheet" href="texiao.css">
 </head>
@@ -18,9 +18,7 @@
       <div class="h-logo"><a href="#"></a></div>
       <ul class="h-user">
         <li class="h-u">
-          <a href="" style="width:90px; background:yellow" class="u-m-a">
-            <img >
-            <span></span>
+          <a href="" class="u-m-a">
           </a>
           <div class="user-message">
             <ul>
@@ -33,11 +31,23 @@
         </li>
         <li class="line"></li>
         <li class="h-u">
-            <a href="" class="shoping"><span></span>购物车</a>
+            <a href="" class="shoping"><span class="number"></span>购物车</a>
             <div class="gouwuche">
               <div class="g-no">你的购物车暂时没有商品...</div>
               <div class="g-have">
-
+                <dl class="back">
+                  <dt><a href="" class="pic"></a></dt>
+                  <dd>
+                    <p class="protit">
+                      <a href=""></a>
+                    </p>
+                    <p class="procolorsize"></p>
+                    <div class="pro">
+                      <p class="prinum"></p>
+                      <p class="proprice"></p>
+                    </div>
+                  </dd>
+                </dl>
               </div>
               <a href="" class="g-g">快去抢购良仓商品吧</a>
             </div>
@@ -337,6 +347,7 @@
         </div>
         |
       </div>
+      
       <div class="shopingcar">
         <table class="cartable">
         <tbody>
@@ -472,6 +483,8 @@
 
 
   <script src="jquery-3.2.1.js"></script>
+  <script src="jquery.cookie.js"></script>
   <script src="body.js"></script>
+  <script src="shuju.js"></script>
 </body>
 </html>
